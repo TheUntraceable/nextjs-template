@@ -1,18 +1,22 @@
-# Next.js & HeroUI Template
+# Next.js & HeroUI + ShadCN Template
 
-This is a template for creating applications using Next.js 14 (app directory) and HeroUI (v2).
+This is a template for creating applications using Next.js 15 (app directory) and HeroUI (v2).
 
-[Try it on CodeSandbox](https://githubbox.com/heroui-inc/heroui/next-app-template)
+[Try it on CodeSandbox](https://githubbox.com/TheUntraceable/NextJS-Template)
 
 ## Technologies Used
 
--   [Next.js 14](https://nextjs.org/docs/getting-started)
--   [HeroUI v2](https://heroui.com/)
--   [Tailwind CSS](https://tailwindcss.com/)
--   [Tailwind Variants](https://tailwind-variants.org)
--   [TypeScript](https://www.typescriptlang.org/)
--   [Framer Motion](https://www.framer.com/motion/)
--   [next-themes](https://github.com/pacocoursey/next-themes)
+- [Next.js 15](https://nextjs.org/docs/getting-started)
+- [HeroUI v2](https://heroui.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Tailwind Variants](https://tailwind-variants.org)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [next-themes](https://github.com/pacocoursey/next-themes)
+- [ShadCN](https://ui.shadcn.com/)
+- [ESLint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+- [Million](https://million.dev/)
 
 ## How to Use
 
@@ -21,21 +25,21 @@ This is a template for creating applications using Next.js 14 (app directory) an
 To create a new project based on this template using `create-next-app`, run the following command:
 
 ```bash
-npx create-next-app -e https://github.com/heroui-inc/next-app-template
+npx create-next-app -e https://github.com/TheUntraceable/NextJS-Template my-app
 ```
 
 ### Install dependencies
 
-You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `npm`:
+You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `bun`:
 
 ```bash
-npm install
+bun install
 ```
 
 ### Run the development server
 
 ```bash
-npm run dev
+bun dev
 ```
 
 ### Setup pnpm (optional)
@@ -50,4 +54,4 @@ After modifying the `.npmrc` file, you need to run `pnpm install` again to ensur
 
 ## License
 
-Licensed under the [MIT license](https://github.com/heroui-inc/next-app-template/blob/main/LICENSE).
+Licensed under the [MIT License](./LICENSE). For more details, please refer to the LICENSE file in this repository.

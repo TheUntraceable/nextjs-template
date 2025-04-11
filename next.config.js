@@ -3,6 +3,6 @@ const MillionLint = require("@million/lint");
 const nextConfig = {};
 
 module.exports = MillionLint.next({
-  enabled: true,
-  rsc: true
+    enabled: true,
+    rsc: true,
 })(nextConfig);

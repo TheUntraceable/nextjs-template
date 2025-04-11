@@ -1,12 +1,13 @@
 {
-    "name": "next-app-template",
-    "version": "0.0.1",
+    "name": "nextjs-template",
+    "version": "0.1.0",
     "private": true,
     "scripts": {
-        "dev": "next dev --turbopack",
+        "dev": "next dev",
         "build": "next build",
         "start": "next start",
-        "lint": "eslint . --ext .ts,.tsx --fix"
+        "lint": "next lint",
+        "setup": "node scripts/setup.js"
     },
     "dependencies": {
         "@heroui/button": "2.2.17",
@@ -25,6 +26,7 @@
         "@radix-ui/react-slot": "^1.2.0",
         "@react-aria/ssr": "3.9.8",
         "@react-aria/visually-hidden": "3.8.22",
+        "@tanstack/react-query": "^5.72.2",
         "class-variance-authority": "^0.7.1",
         "clsx": "^2.1.1",
         "eslint-plugin-eslint-comments": "^3.2.0",
@@ -52,6 +54,7 @@
         "@typescript-eslint/eslint-plugin": "8.29.1",
         "@typescript-eslint/parser": "8.29.1",
         "autoprefixer": "10.4.19",
+        "chalk": "^4.1.2",
         "eslint": "^9.24.0",
         "eslint-config-next": "15.3.0",
         "eslint-config-prettier": "10.1.2",
@@ -70,6 +73,8 @@
         "eslint-plugin-unicorn": "^58.0.0",
         "eslint-plugin-unused-imports": "4.1.4",
         "globals": "^16.0.0",
+        "inquirer": "^8.2.6",
+        "ora": "^5.4.1",
         "postcss": "8.4.49",
         "prettier": "3.3.3",
         "tailwind-variants": "0.3.0",

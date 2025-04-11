@@ -36,6 +36,25 @@ You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `bun`:
 bun install
 ```
 
+### Run the interactive setup (optional)
+
+This template comes with an interactive CLI setup tool that allows you to customize your project with optional features:
+
+```bash
+bun run setup
+```
+
+The setup CLI will guide you through selecting from the following optional features:
+
+- Authentication (NextAuth.js or Clerk)
+- Database integration (Prisma, Drizzle, or Mongoose)
+- State management (Redux Toolkit, Zustand, or Jotai)
+- API data fetching (SWR or React Query)
+- Form handling (React Hook Form or Formik)
+- Internationalization (next-intl)
+- Testing framework (Jest or Vitest)
+- Analytics integration
+
 ### Run the development server
 
 ```bash

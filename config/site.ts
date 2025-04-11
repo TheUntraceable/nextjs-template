@@ -1,69 +1,69 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "Next.js + HeroUI",
   description: "Make beautiful websites regardless of your design experience.",
+  links: {
+    discord: "https://discord.gg/9b6yyZKmH4",
+    docs: "https://heroui.com",
+    github: "https://github.com/heroui-inc/heroui",
+    sponsor: "https://patreon.com/jrgarciadev",
+    twitter: "https://twitter.com/hero_ui",
+  },
+  name: "Next.js + HeroUI",
   navItems: [
     {
-      label: "Home",
       href: "/",
+      label: "Home",
     },
     {
-      label: "Docs",
       href: "/docs",
+      label: "Docs",
     },
     {
-      label: "Pricing",
       href: "/pricing",
+      label: "Pricing",
     },
     {
-      label: "Blog",
       href: "/blog",
+      label: "Blog",
     },
     {
-      label: "About",
       href: "/about",
+      label: "About",
     },
   ],
   navMenuItems: [
     {
-      label: "Profile",
       href: "/profile",
+      label: "Profile",
     },
     {
-      label: "Dashboard",
       href: "/dashboard",
+      label: "Dashboard",
     },
     {
-      label: "Projects",
       href: "/projects",
+      label: "Projects",
     },
     {
-      label: "Team",
       href: "/team",
+      label: "Team",
     },
     {
-      label: "Calendar",
       href: "/calendar",
+      label: "Calendar",
     },
     {
-      label: "Settings",
       href: "/settings",
+      label: "Settings",
     },
     {
-      label: "Help & Feedback",
       href: "/help-feedback",
+      label: "Help & Feedback",
     },
     {
-      label: "Logout",
       href: "/logout",
+      label: "Logout",
     },
   ],
-  links: {
-    github: "https://github.com/heroui-inc/heroui",
-    twitter: "https://twitter.com/hero_ui",
-    docs: "https://heroui.com",
-    discord: "https://discord.gg/9b6yyZKmH4",
-    sponsor: "https://patreon.com/jrgarciadev",
-  },
 };
